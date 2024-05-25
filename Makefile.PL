@@ -18,6 +18,8 @@ name 'Data-Message-Board';
 perl_version 5.008;
 readme_from 'lib/Data/Message/Board.pm';
 recursive_author_tests('xt');
+requires 'Data::Person' => 0;
+requires 'DateTime' => 0;
 requires 'Mo' => 0;
 requires 'Mo::utils' => 0.28;
 requires 'Readonly' => 0;

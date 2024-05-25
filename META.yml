@@ -22,6 +22,8 @@ no_index:
     - t
     - xt
 requires:
+  Data::Person: 0
+  DateTime: 0
   Mo: 0
   Mo::utils: 0.28
   Readonly: 0
