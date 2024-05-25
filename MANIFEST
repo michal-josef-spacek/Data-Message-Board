@@ -1,5 +1,3 @@
-Board.pm
-Board/Comment.pm
 Changes
 CONCEPT
 inc/Module/Install.pm
@@ -13,6 +11,8 @@ inc/Module/Install/Metadata.pm
 inc/Module/Install/ReadmeFromPod.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
+lib/Data/Board.pm
+lib/Data/Board/Comment.pm
 LICENSE
 Makefile.PL
 MANIFEST			This list of files
