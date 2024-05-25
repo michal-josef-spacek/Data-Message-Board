@@ -16,7 +16,7 @@ author_requires 'Test::Pod::Coverage' => 0;
 license 'bsd';
 name 'Data-Message-Board';
 perl_version 5.008;
-readme_from 'lib/Data/Board.pm';
+readme_from 'lib/Data/Message/Board.pm';
 recursive_author_tests('xt');
 requires 'Mo' => 0;
 requires 'Mo::utils' => 0.28;

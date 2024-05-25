@@ -11,8 +11,8 @@ inc/Module/Install/Metadata.pm
 inc/Module/Install/ReadmeFromPod.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
-lib/Data/Board.pm
-lib/Data/Board/Comment.pm
+lib/Data/Message/Board.pm
+lib/Data/Message/Board/Comment.pm
 lib/Test/Shared/Fixture/Data/Message/Board/Example.pm
 LICENSE
 Makefile.PL
