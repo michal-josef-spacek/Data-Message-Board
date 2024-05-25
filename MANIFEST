@@ -13,6 +13,7 @@ inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
 lib/Data/Board.pm
 lib/Data/Board/Comment.pm
+lib/Test/Shared/Fixture/Data/Message/Board/Example.pm
 LICENSE
 Makefile.PL
 MANIFEST			This list of files
@@ -22,7 +23,11 @@ t/Data-Message-Board-Comment/01-use.t
 t/Data-Message-Board-Comment/02-version.t
 t/Data-Message-Board/01-use.t
 t/Data-Message-Board/02-version.t
+t/Test-Shared-Fixture-Data-Message-Board-Example/01-use.t
+t/Test-Shared-Fixture-Data-Message-Board-Example/02-version.t
 xt/Data-Message-Board-Comment/01-pod_coverage.t
 xt/Data-Message-Board-Comment/02-pod.t
 xt/Data-Message-Board/01-pod_coverage.t
 xt/Data-Message-Board/02-pod.t
+xt/Test-Shared-Fixture-Data-Message-Board-Example/01-pod_coverage.t
+xt/Test-Shared-Fixture-Data-Message-Board-Example/02-pod.t
