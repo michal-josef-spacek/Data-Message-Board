@@ -28,6 +28,7 @@ t/Data-Message-Board-Comment/06-id.t
 t/Data-Message-Board-Comment/07-message.t
 t/Data-Message-Board/01-use.t
 t/Data-Message-Board/02-version.t
+t/Data-Message-Board/03-new.t
 t/Test-Shared-Fixture-Data-Message-Board-Example/01-use.t
 t/Test-Shared-Fixture-Data-Message-Board-Example/02-version.t
 t/Test-Shared-Fixture-Data-Message-Board-Example/03-new.t
