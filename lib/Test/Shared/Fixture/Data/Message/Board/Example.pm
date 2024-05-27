@@ -30,6 +30,7 @@ sub new {
 					'minute' => 53,
 					'second' => 27,
 				),
+				'id' => 1,
 				'message' => 'apt-get update; apt-get install perl;',
 			),
 			Data::Message::Board::Comment->new(
@@ -44,6 +45,7 @@ sub new {
 					'minute' => 53,
 					'second' => 37,
 				),
+				'id' => 2,
 				'message' => 'dnf update; dnf install perl-intepreter;',
 			),
 		],
