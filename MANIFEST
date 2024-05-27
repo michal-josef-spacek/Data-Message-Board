@@ -38,9 +38,10 @@ t/Test-Shared-Fixture-Data-Message-Board-Example/01-use.t
 t/Test-Shared-Fixture-Data-Message-Board-Example/02-version.t
 t/Test-Shared-Fixture-Data-Message-Board-Example/03-new.t
 t/Test-Shared-Fixture-Data-Message-Board-Example/04-author.t
-t/Test-Shared-Fixture-Data-Message-Board-Example/05-date.t
-t/Test-Shared-Fixture-Data-Message-Board-Example/06-id.t
-t/Test-Shared-Fixture-Data-Message-Board-Example/07-message.t
+t/Test-Shared-Fixture-Data-Message-Board-Example/05-comments.t
+t/Test-Shared-Fixture-Data-Message-Board-Example/06-date.t
+t/Test-Shared-Fixture-Data-Message-Board-Example/07-id.t
+t/Test-Shared-Fixture-Data-Message-Board-Example/08-message.t
 xt/Data-Message-Board-Comment/01-pod_coverage.t
 xt/Data-Message-Board-Comment/02-pod.t
 xt/Data-Message-Board/01-pod_coverage.t
