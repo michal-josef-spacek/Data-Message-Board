@@ -23,6 +23,7 @@ meta-spec:
 name: Data-Message-Board
 no_index:
   directory:
+    - examples
     - inc
     - t
     - xt
