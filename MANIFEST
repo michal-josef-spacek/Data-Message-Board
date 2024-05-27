@@ -1,6 +1,7 @@
 Changes
 CONCEPT
 examples/comment.pl
+examples/fixture.pl
 examples/message_board.pl
 inc/Module/Install.pm
 inc/Module/Install/AuthorRequires.pm
