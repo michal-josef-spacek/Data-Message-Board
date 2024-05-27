@@ -4,8 +4,8 @@ use base qw(Data::Message::Board);
 use strict;
 use warnings;
 
-use Data::Person;
 use Data::Message::Board::Comment;
+use Data::Person;
 use DateTime;
 
 our $VERSION = 0.01;
