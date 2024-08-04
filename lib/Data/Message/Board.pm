@@ -272,6 +272,20 @@ Returns string.
 L<Mo>,
 L<Mo::utils>.
 
+=head1 SEE ALSO
+
+=over
+
+=item L<Tags::HTML::Message::Board>
+
+Tags helper for message board.
+
+=item L<Tags::HTML::Message::Board::Blank>
+
+Tags helper for message board blank page.
+
+=back
+
 =head1 REPOSITORY
 
 L<https://github.com/michal-josef-spacek/Data-Message-Board>

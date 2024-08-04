@@ -2,6 +2,7 @@ TODO
 ====
 3. Is it possible to have data as Tags(3pm)?
 5. Add link to Tags::HTML::Message::Board and Plack::App::Message::Board.
+Tags::HTML::Message::Board is in doc.
 6.
 
 Applied

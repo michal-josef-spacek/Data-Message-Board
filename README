@@ -190,6 +190,13 @@ EXAMPLE
 DEPENDENCIES
     Mo, Mo::utils.
 
+SEE ALSO
+    Tags::HTML::Message::Board
+        Tags helper for message board.
+
+    Tags::HTML::Message::Board::Blank
+        Tags helper for message board blank page.
+
 REPOSITORY
     <https://github.com/michal-josef-spacek/Data-Message-Board>
 
