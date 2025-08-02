@@ -1,4 +1,5 @@
 0.06
+ - Fix module versions. 0.01 has one module file with version 0.05.
 
 0.02 2025-08-02T21:06:14+02:00
  - Add SEE ALSO section to doc.
