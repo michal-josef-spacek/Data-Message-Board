@@ -1,4 +1,4 @@
-0.02
+0.02 2025-08-02T21:06:14+02:00
  - Add SEE ALSO section to doc.
  - Move check_array_object() to Mo::utils::Array.
  - Regen README file.
