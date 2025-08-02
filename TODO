@@ -3,7 +3,6 @@ TODO
 3. Is it possible to have data as Tags(3pm)?
 5. Add link to Tags::HTML::Message::Board and Plack::App::Message::Board.
 Tags::HTML::Message::Board is in doc.
-6. Rewrite check_number_id to check_positive_natural
 7.
 
 Applied
@@ -16,3 +15,6 @@ OK [20240527] skim
 
 1. Doc.
 OK [20240527] skim
+
+6. Rewrite check_number_id to check_positive_natural
+OK [20250802] skim

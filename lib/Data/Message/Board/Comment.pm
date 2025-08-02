@@ -4,7 +4,8 @@ use strict;
 use warnings;
 
 use Mo qw(build default is);
-use Mo::utils 0.28 qw(check_isa check_length check_number_id check_required);
+use Mo::utils 0.28 qw(check_isa check_length check_required);
+use Mo::utils::Number qw(check_positive_natural);
 
 our $VERSION = 0.02;
 
@@ -36,7 +37,7 @@ sub BUILD {
 	check_isa($self, 'date', 'DateTime');
 
 	# Check id.
-	check_number_id($self, 'id');
+	check_positive_natural($self, 'id');
 
 	# Check message.
 	check_required($self, 'message');
@@ -147,16 +148,19 @@ Returns string.
                  Parameter 'date' must be a 'DateTime' object.
                          Value: %s
                          Reference: %s
+
          From Mo::utils::check_length():
                  Parameter 'message' has length greater than '4096'.
                          Value: %s
-         From Mo::utils::check_number_id():
-                 Parameter 'id' must be a natural number.
-                         Value: %s
+
          From Mo::utils::check_required():
                  Parameter 'author' is required.
                  Parameter 'date' is required.
                  Parameter 'message' is required.
+
+         From Mo::utils::Number::check_positive_natural():
+                 Parameter 'id' must be a positive natural number.
+                         Value: %s
 
 =head1 EXAMPLE
 
@@ -197,7 +201,8 @@ Returns string.
 =head1 DEPENDENCIES
 
 L<Mo>,
-L<Mo::utils>.
+L<Mo::utils>,
+L<Mo::utils::Number>.
 
 =head1 REPOSITORY
 
