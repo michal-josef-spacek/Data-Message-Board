@@ -8,7 +8,7 @@ use Data::Message::Board::Comment;
 use Data::Person;
 use DateTime;
 
-our $VERSION = 0.03;
+our $VERSION = 0.06;
 
 sub new {
 	my $class = shift;
@@ -205,6 +205,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.03
+0.06
 
 =cut
