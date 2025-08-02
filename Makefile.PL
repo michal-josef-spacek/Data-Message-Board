@@ -22,6 +22,7 @@ requires 'Data::Person' => 0;
 requires 'DateTime' => 0;
 requires 'Mo' => 0;
 requires 'Mo::utils' => 0.28;
+requires 'Mo::utils::Array' => 0;
 requires 'Readonly' => 0;
 resources 'bugtracker' => 'https://github.com/michal-josef-spacek/Data-Message-Board/issues';
 resources 'homepage' => 'https://github.com/michal-josef-spacek/Data-Message-Board';

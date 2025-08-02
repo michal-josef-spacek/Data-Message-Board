@@ -94,8 +94,8 @@ eval {
 		'message' => 'This is message.',
 	);
 };
-is($EVAL_ERROR, "Comment isn't 'Data::Message::Board::Comment' object.\n",
-	"Comment isn't 'Data::Message::Board::Comment' object.");
+is($EVAL_ERROR, "Parameter 'comments' with array must contain 'Data::Message::Board::Comment' objects.\n",
+	"Parameter 'comments' with array must contain 'Data::Message::Board::Comment' objects (bad).");
 clean();
 
 # Test.
